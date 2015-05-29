@@ -1,0 +1,3 @@
+AUFLIRA/why/smtlibb6131b.smt2, unsat
+AUFLIRA/why/smtlib549b76.smt2, unsat
+AUFLIRA/nasa/vc_normalize_subst/thruster_init_0002.fof.smt2, unsat

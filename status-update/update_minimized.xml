@@ -1,0 +1,137 @@
+<ns0:Spaces xmlns:ns0="https://www.starexec.org/starexec/public/batchSpaceSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.starexec.org/starexec/public/batchSpaceSchema.xsd batchSpaceSchema.xsd">
+<Space id="59543" name="non-incremental">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+<add-benchmark-perm value="false" />
+<add-job-perm value="false" />
+<add-solver-perm value="false" />
+<add-space-perm value="false" />
+<add-user-perm value="false" />
+<rem-benchmark-perm value="false" />
+<rem-job-perm value="false" />
+<rem-solver-perm value="false" />
+<rem-space-perm value="false" />
+<rem-user-perm value="false" />
+</SpaceAttributes>
+<Space id="59548" name="AUFLIRA">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+<Space id="59549" name="FFT">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+<add-benchmark-perm value="false" />
+<add-job-perm value="false" />
+<add-solver-perm value="false" />
+<add-space-perm value="false" />
+<add-user-perm value="false" />
+<rem-benchmark-perm value="false" />
+<rem-job-perm value="false" />
+<rem-solver-perm value="false" />
+<rem-space-perm value="false" />
+<rem-user-perm value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59550" name="misc">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59551" name="nasa">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+<Space id="59552" name="fol_simplify">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59553" name="fol_simplify_arithmetics">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59554" name="fol_simplify_array">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59555" name="fol_simplify_array_only">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59556" name="fol_simplify_structure_forall">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59557" name="fol_simplify_structure_prop">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59558" name="vc_normalize_subst">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+<Update bid="83" id="347765" name="thruster_init_0002.fof.smt2" pid="183"><Text>unsat</Text></Update>
+</Space>
+</Space>
+<Space id="59559" name="peter">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+</Space>
+<Space id="59560" name="why">
+<SpaceAttributes>
+<description value="no description" />
+<sticky-leaders value="false" />
+<inherit-users value="false" />
+<locked value="false" />
+</SpaceAttributes>
+<Update bid="83" id="348367" name="smtlib549b76.smt2" pid="183"><Text>unsat</Text></Update>
+<Update bid="83" id="348873" name="smtlibb6131b.smt2" pid="183"><Text>unsat</Text></Update>
+</Space>
+</Space>
+</Space>
+</ns0:Spaces>

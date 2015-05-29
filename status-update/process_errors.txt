@@ -1,0 +1,26 @@
+Benchmark: QF_BV/asp/TravellingSalesperson/rand_80_340_1159656267_18.lp.smt2
+ERROR: solvers don't agree on correct answer
+  "sat" is what Yices-2.2.1-smtcomp2014:default believes.
+  "sat" is what Boolector:boolector believes.
+  "sat" is what CVC4 f7118b2:default believes.
+  "unsat" is what Z3-4.3.2.a054b099c1d6-x64-debian-6.0.6-SMT-COMP-2014:default believes.
+
+Benchmark: QF_BV/asp/TravellingSalesperson/rand_80_340_1159656267_17.lp.smt2
+ERROR: solvers don't agree on correct answer
+  "sat" is what Yices-2.2.1-smtcomp2014:default believes.
+  "sat" is what Boolector:boolector believes.
+  "sat" is what CVC4 f7118b2:default believes.
+  "unsat" is what Z3-4.3.2.a054b099c1d6-x64-debian-6.0.6-SMT-COMP-2014:default believes.
+
+Benchmark: QF_BV/asp/TravellingSalesperson/rand_80_340_1159656267_15.lp.smt2
+ERROR: solvers don't agree on correct answer
+  "sat" is what Yices-2.2.1-smtcomp2014:default believes.
+  "sat" is what Boolector:boolector believes.
+  "sat" is what CVC4 f7118b2:default believes.
+  "unsat" is what Z3-4.3.2.a054b099c1d6-x64-debian-6.0.6-SMT-COMP-2014:default believes.
+
+Benchmark: QF_BV/mcm/153.smt2
+ERROR: solvers don't agree on correct answer
+  "sat" is what Yices-2.2.1-smtcomp2014:default believes.
+  "unsat" is what Z3-4.3.2.a054b099c1d6-x64-debian-6.0.6-SMT-COMP-2014:default believes.
+
