@@ -9,11 +9,11 @@ import math
 import sys
 import xml.etree.ElementTree as etree
 
-LOG_CORRECT = "process_fornextstep.txt"
-INPUT_XML="raw/non-incremental.xml"
+#LOG_CORRECT = "process_fornextstep.txt"
+#INPUT_XML="raw/non-incremental.xml"
 
-#LOG_CORRECT = "test.txt"
-#INPUT_XML="test.xml"
+LOG_CORRECT = "test.txt"
+INPUT_XML="test.xml"
 #INPUT_XML="update_subset.xml"
 
 spacexml = etree.parse(INPUT_XML)
@@ -44,5 +44,21 @@ for line in open(LOG_CORRECT):
     # print(node.attrib)
     # print(node.text)
     # etree.dump(node)
+
+# space nodes, reorder according to:
+#  "our schema requires that each
+#   Space element has these elements in this order:
+#   0 or 1 SpaceAttribute elements
+#   0 or more Update elements
+#   0 or more Benchmark elements
+#   0 or more Solver elements
+#   0 or more Space elements."
+spacenodes = spacexml.findall(".//Space")
+for spacenode in spacenodes:
+    updateChildren = [x for x in spacenode if x.tag == "Update"]
+    numSpaceAttribtes = len([x for x in spacenode if x.tag == "SpaceAttributes"])
+    for c in updateChildren:
+        spacenode.remove(c)
+        spacenode.insert(numSpaceAttribtes, c)
 
 etree.dump(spacexml)
