@@ -9,11 +9,11 @@ import math
 import sys
 import xml.etree.ElementTree as etree
 
-#LOG_CORRECT = "process_fornextstep.txt"
-#INPUT_XML="raw/non-incremental.xml"
+LOG_CORRECT = "process_fornextstep.txt"
+INPUT_XML="raw/non-incremental.xml"
 
-LOG_CORRECT = "test.txt"
-INPUT_XML="test.xml"
+#LOG_CORRECT = "test.txt"
+#INPUT_XML="test.xml"
 #INPUT_XML="update_subset.xml"
 
 spacexml = etree.parse(INPUT_XML)
